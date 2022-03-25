@@ -1,0 +1,30 @@
+.body {
+    background-color: #ffe18c;
+    text-align: center;
+}
+
+.btn-info {
+    letter-spacing: 10px;
+}
+
+.heading {
+    color: white;
+}
+
+.emogi_predictor {
+    margin-bottom: 30px;
+}
+
+.emogi_predictor label {
+    background-color: white;
+    color: limegreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#camera, #result_snapshot{
+    border: 1px dashed white;
+    height: 200px;
+    width: 300px;
+    margin-left: 130px;
+}

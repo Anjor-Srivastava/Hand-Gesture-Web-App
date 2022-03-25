@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hand Gesture Web app</title>
+        <link rel="icon" href="icon.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    </head>
+    <body class="body">
+        <div class="container">
+            <br><br>
+            <center>
+                    <button class="btn btn-info btn-lg">
+                        <span id="btn_heading">HAND GESTURE WEB APP</span><br>
+                        <span>&#128076;</span>
+                        <span>&#128077;</span>
+                        <span>&#9996;</span>
+                        <span>&#9994;</span>
+                        <span>&#128079;</span>
+                        <span>&#129304;</span>
+                    </button>
+                    <h3 class="heading" id="instruct">Take a photograph of a hand gesture from the given options to know its meaning</h3>
+                    <h4 class="heading">This web app can detect the following hand gestures-</h4>
+                    <h3 style="letter-spacing: 10px; color: white;">
+                        &#128076;|&#128077;|&#9996;|&#128079;|&#129295;
+                    </div>
+                    <div class="emogi_predictor col-md-4 col-sm-12 col-xs-12">
+                        <label>Webcam View-</label> <br>
+                        <div id="camera"></div> <br><br>
+                        <button class="btn btn-primary" onclick="take_snapshot()">Capture Image</button>
+                    </div>
+                    <div class="emogi_predictor col-md-4 col-sm-12 col-xs-12">
+                        <label>Prediction-</label> <br>
+                        <p style="color:white; font-size: large;" id="result"></p>
+                    </div>
+                    <div class="emogi_predictor col-md-4 col-sm-12 col-xs-12">
+                        <label>Snapshot-</label> <br>
+                        <div id="result_snapshot"></div> <br><br>
+                        <button class="btn btn-success" onclick="check_results()">Check results</button>
+                    </div>
+            </center>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
