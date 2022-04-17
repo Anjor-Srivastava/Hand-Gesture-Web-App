@@ -60,7 +60,7 @@ function gotResult(error, result) {
             emogi = "&#128077;";
         }
         if(prediction == "Victory") {
-            output = "That was a marvellous vicotry."
+            output = "That was a marvellous victory."
             emogi = "&#9996;";
         }
         if(prediction == "Hifi") {
