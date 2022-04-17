@@ -6,8 +6,3 @@ These are some of them: <br>
 
 You will have to take a picure of a hand gesture and check what the web app has predicted. The web app will display the result and also announce it. <br> This web app is also responsive. 
 This means that it can be opened in every device
-
-
-
-
-### This web app is under development
